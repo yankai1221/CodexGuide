@@ -13,3 +13,5 @@ docs/.vuepress/dist
 .env
 .env.*
 .vercel
+
+.claudian/
