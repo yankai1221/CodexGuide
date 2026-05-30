@@ -14,6 +14,8 @@ const addMeta = (
   head.push(["meta", { [attribute]: name, content }]);
 };
 
+const ACCESS_PASSWORD = "zhumu666";
+
 export default hopeTheme({
   hostname: `${siteUrl}/`,
   logo: "/logo.svg",
@@ -31,6 +33,27 @@ export default hopeTheme({
   pageInfo: ["Category", "Tag", "Date", "Original", "Word", "ReadingTime"],
 
   blog: false,
+
+  encrypt: {
+    admin: ACCESS_PASSWORD,
+    config: {
+      "/guide/02-subscribe-plus.html": {
+        password: ACCESS_PASSWORD,
+        hint: "请输入专属激活码以解锁本节教程",
+      },
+    },
+  },
+
+  locales: {
+    "/": {
+      encryptLocales: {
+        iconLabel: "本节教程已加密",
+        placeholder: "请输入专属激活码",
+        remember: "记住激活码",
+        errorHint: "请输入正确的专属激活码以解锁教程",
+      },
+    },
+  },
 
   markdown: {
     align: true,
