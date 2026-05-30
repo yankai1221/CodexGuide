@@ -1,16 +1,16 @@
-export const siteUrl = "https://codexguide.ai";
+export const siteUrl = "https://zhumuai.com";
 
 export const siteDescription =
-  "CodexGuide 系统整理 Codex 桌面 App、CLI、IDE、Cloud、Skills 与真实案例，帮助中文用户从入门到团队落地。";
+  "瞩目AI 是面向 AI 学习者的实践基地：教你接入瞩目中转 API，一站式上手 Codex、ChatBox、NextChat、Cursor 等 AI 工具。";
 
 export const siteOgImage = `${siteUrl}/og.svg`;
 
 export const pageDescriptions: Record<string, string> = {
   "/": siteDescription,
   "/community/":
-    "CodexGuide 社区共建入口，整理路线图、贡献方向和内容认领方式，方便一起完善 Codex 中文实践知识库。",
+    "瞩目AI 共建路线图，整理后续教程、案例和内容计划，方便一起完善这套 AI 教学基地。",
   "/community/roadmap.html":
-    "CodexGuide 共建路线图，记录文档站骨架、教程、案例、截图、关键词索引和社区传播的后续计划。",
+    "瞩目AI 共建路线图，记录文档站骨架、教程、案例、截图和后续内容计划。",
   "/configuration/":
     "Codex 配置与扩展总览，梳理 AGENTS.md、config.toml、Skills、MCP、Subagents、安全审批和团队配置路径。",
   "/configuration/cli-options.html":
@@ -22,13 +22,13 @@ export const pageDescriptions: Record<string, string> = {
   "/configuration/security-admin.html":
     "Codex 安全、审批与管理指南，整理沙盒、网络访问、凭据边界、组织策略和团队审计关注点，适合上线前检查。",
   "/guide/":
-    "CodexGuide 学习路线目录，汇总入门准备、日常工作流、CLI、IDE、Cloud、AGENTS.md 和排障章节。",
+    "瞩目AI 学习路线目录，汇总入门准备、日常工作流、CLI、IDE、Cloud、AGENTS.md 和排障章节。",
   "/guide/00-overview.html":
     "Codex 学习路线，从入口认知、任务闭环、工程化验证到团队沉淀，帮助新手建立完整使用路径并选择下一章。",
   "/guide/01-app-installation.html":
     "Codex 桌面 App 下载与安装教程，说明 macOS、Windows 安装入口、账号登录和首次启动前的准备工作。",
   "/guide/02-subscribe-plus.html":
-    "ChatGPT Plus 与 Pro 订阅指南，整理 Codex 可用性、账号准备、支付路径和订阅前需要核对的信息。",
+    "瞩目AI 中转站快速开始：注册账号、获取 API Key，并把 ChatBox / NextChat / Cursor 的 API Base 切换到中转接口。",
   "/guide/03-app-overview.html":
     "Codex 桌面 App 基本组成说明，介绍项目工作区、对话、设置入口、任务状态和常见界面区域，方便快速定位功能。",
   "/guide/04-mobile-control-desktop.html":
@@ -84,7 +84,7 @@ export const pageDescriptions: Record<string, string> = {
   "/recipes/chrome-browser-plugin.html":
     "Codex Chrome 浏览器插件案例，说明如何让 AI 控制浏览器页面、执行网页任务并保持安全边界。",
   "/recipes/credits.html":
-    "CodexGuide 参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源，便于追溯资料。",
+    "瞩目AI 参考来源与致谢，整理案例中涉及的第三方工具、官方文档和仓库链接，便于追溯资料。",
   "/recipes/dkfile-deploy-codex.html":
     "Codex 与 DKFile 发布案例，说明如何用 AI 生成网页、构建静态产物并一键发布到公网，同时确认访问结果。",
   "/recipes/drawio-mcp.html":

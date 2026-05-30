@@ -2,6 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   { text: "首页", icon: "home", link: "/" },
+  { text: "快速开始", icon: "rocket", link: "/guide/02-subscribe-plus.md" },
   { text: "学习路线", icon: "map", link: "/guide/00-overview.md" },
   { text: "入口地图", icon: "layout", link: "/platform/" },
   {
@@ -29,7 +30,7 @@ export default navbar([
     icon: "book",
     children: [
       { text: "01 Codex 桌面 App 下载与安装", icon: "desktop", link: "/guide/01-app-installation.md" },
-      { text: "02 订阅 ChatGPT Plus", icon: "star", link: "/guide/02-subscribe-plus.md" },
+      { text: "02 接入瞩目AI 中转 API", icon: "key", link: "/guide/02-subscribe-plus.md" },
       { text: "03 了解 Codex 桌面 App", icon: "layout", link: "/guide/03-app-overview.md" },
       { text: "04 手机端协同桌面任务", icon: "mobile", link: "/guide/04-mobile-control-desktop.md" },
       { text: "05 用 Codex 完成第一个任务", icon: "code", link: "/guide/05-app-first-task.md" },
@@ -66,14 +67,6 @@ export default navbar([
       { text: "12 Codex × Chrome：让 AI 直接控制浏览器", icon: "chrome", link: "/recipes/chrome-browser-plugin.md" },
       { text: "13 Codex × GitHub Actions：CI 失败自动修复", icon: "actions", link: "/recipes/github-actions-ci-fix.md" },
       { text: "参考来源与致谢", icon: "heart", link: "/recipes/credits.md" },
-    ],
-  },
-  {
-    text: "交流群",
-    icon: "message",
-    ariaLabel: "交流群",
-    children: [
-      { text: "关注苍何公众号，回复 codex交流群 进入群交流", icon: "message", link: "/community/roadmap.md" },
     ],
   },
 ]);

@@ -4,7 +4,7 @@ description: "Codex 学习路线，从入口认知、任务闭环、工程化验
 
 # 学习路线
 
-CodexGuide 按“认识入口、跑通任务、建立方法、团队沉淀”四层组织。你可以从 CLI 入门，也可以从桌面端、ChatGPT 或云端任务开始；关键在于先理解每个入口适合承载的任务节奏。
+瞩目AI 按”接入中转、认识入口、跑通任务、建立方法、团队沉淀”五层组织。你可以从快速接入中转 API 开始，也可以从桌面端、CLI 或云端任务起步；关键在于先理解每个入口适合承载的任务节奏。
 
 ::: tip 最后核对
 官方资料最后核对日期：2026-05-27。核心来源包括 [OpenAI Codex 产品页](https://openai.com/codex/)、[Codex 文档入口](https://developers.openai.com/codex/)、[Codex CLI 官方仓库](https://github.com/openai/codex) 与 [Codex Help Center](https://help.openai.com/en/articles/11369540-codex-in-chatgpt)。
@@ -26,6 +26,7 @@ Codex 是 OpenAI 面向软件工程与知识工作场景的代理式工作流。
 
 | 阶段 | 目标 | 推荐页面 | 验收标准 |
 | --- | --- | --- | --- |
+| 接入 | 接好瞩目中转 API | [快速开始：接入瞩目AI 中转 API](./02-subscribe-plus.md) | 在 ChatBox / NextChat / Cursor 任一客户端里成功用中转 API 发出第一条对话 |
 | 入门 | 跑通一个低风险任务 | [桌面 App 下载与安装](./01-app-installation.md)、[手机端协同](./04-mobile-control-desktop.md)、[用 Codex 完成第一个任务](./05-app-first-task.md) | 能用 Codex 桌面 App 完成一次完整的任务闭环 |
 | 进阶 | 形成稳定任务方法 | [了解 Codex 基本组成](./03-app-overview.md)、[实践方法](/practice/) | 能写清楚目标、范围、约束、验证和交付 |
 | 工程化 | 进入真实项目流程 | [任务执行机制](./06-task-execution.md)、[配置与扩展](/configuration/) | 每次改动都有 diff、测试结果和风险说明 |

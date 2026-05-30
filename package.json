@@ -1,8 +1,8 @@
 {
-  "name": "codex-guide",
+  "name": "zhumu-ai",
   "version": "0.1.0",
   "private": true,
-  "description": "CodexGuide：面向全球初学者、创作者、开发者与团队的 Codex 实践指南",
+  "description": "瞩目AI：面向 AI 学习者的实践基地，教你接入瞩目中转 API 并把 AI 工具用进真实工作流。",
   "type": "module",
   "engines": {
     "node": ">=22 <25"

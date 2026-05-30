@@ -137,7 +137,7 @@ export default sidebar({
 
   "/": [
     {
-      text: "CodexGuide",
+      text: "瞩目AI",
       icon: "home",
       children: [
         "/guide/00-overview.md",

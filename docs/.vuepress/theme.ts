@@ -19,14 +19,6 @@ export default hopeTheme({
   logo: "/logo.svg",
   favicon: "/logo.svg",
 
-  author: {
-    name: "canghe",
-    url: "https://github.com/freestylefly",
-  },
-
-  repo: "https://github.com/freestylefly/CodexGuide",
-  docsDir: "docs",
-
   navbar,
   sidebar,
 
@@ -35,8 +27,8 @@ export default hopeTheme({
   focus: false,
   breadcrumb: true,
   displayFooter: true,
-  footer: "MIT Licensed | Copyright © 2026 canghe",
-  pageInfo: ["Author", "Category", "Tag", "Date", "Original", "Word", "ReadingTime"],
+  footer: "MIT Licensed | Copyright © 2026 瞩目AI",
+  pageInfo: ["Category", "Tag", "Date", "Original", "Word", "ReadingTime"],
 
   blog: false,
 
@@ -54,11 +46,11 @@ export default hopeTheme({
   plugins: {
     copyCode: true,
     copyright: {
-      author: "CodexGuide(codexguide.ai)",
+      author: "瞩目AI",
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,
-      canonical: "https://codexguide.ai/",
+      canonical: `${siteUrl}/`,
       global: true,
     },
     feed: {
@@ -73,7 +65,7 @@ export default hopeTheme({
         ...ogp,
         "og:description": getPageDescription(page.path),
         "og:image": page.frontmatter.cover || page.frontmatter.banner ? ogp["og:image"] : siteOgImage,
-        "og:image:alt": `${page.title} - CodexGuide`,
+        "og:image:alt": `${page.title} - 瞩目AI`,
         "og:locale": "zh_CN",
       }),
       jsonLd: (jsonLD, page) => ({
@@ -84,12 +76,12 @@ export default hopeTheme({
         inLanguage: "zh-CN",
         isPartOf: {
           "@type": "WebSite",
-          name: "CodexGuide",
+          name: "瞩目AI",
           url: `${siteUrl}/`,
         },
         publisher: {
           "@type": "Organization",
-          name: "CodexGuide",
+          name: "瞩目AI",
           url: `${siteUrl}/`,
           logo: {
             "@type": "ImageObject",
@@ -99,13 +91,13 @@ export default hopeTheme({
       }),
       customHead: (head, page) => {
         const description = getPageDescription(page.path);
-        const title = `${page.title} | CodexGuide`;
+        const title = `${page.title} | 瞩目AI`;
 
         addMeta(head, "name", "twitter:card", "summary_large_image");
         addMeta(head, "name", "twitter:title", title);
         addMeta(head, "name", "twitter:description", description);
         addMeta(head, "name", "twitter:image", siteOgImage);
-        addMeta(head, "name", "twitter:image:alt", `${page.title} - CodexGuide`);
+        addMeta(head, "name", "twitter:image:alt", `${page.title} - 瞩目AI`);
       },
     },
     sitemap: {
@@ -117,7 +109,7 @@ export default hopeTheme({
       maxSuggestions: 10,
       locales: {
         "/": {
-          placeholder: "搜索 CodexGuide",
+          placeholder: "搜索 瞩目AI",
         },
       },
     },
