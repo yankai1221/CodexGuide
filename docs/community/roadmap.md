@@ -4,12 +4,12 @@ description: "瞩目AI 共建路线图，记录文档站骨架、教程、案例
 
 # 共建路线图
 
-目标：把这个仓库做成一个面向 AI 学习者的实践基地，围绕瞩目中转 API 把 Codex、ChatBox、NextChat、Cursor 等主流客户端的使用方法整理清楚。
+目标：把这个仓库做成一个面向 AI 学习者的实践基地，围绕中转 API（国际 zzzplus.com / 国内 zhumuai.com）把 Codex、ChatBox、NextChat、Cursor 等主流客户端的使用方法整理清楚。
 
 ## 第一阶段：骨架完整
 
 - [x] 建立 VuePress + Theme Hope 文档站。
-- [x] 完成《快速开始：接入瞩目AI 中转 API》指南。
+- [x] 完成《快速开始：接入中转 API》指南。
 - [x] 搭建入门、进阶和案例目录。
 - [x] 添加官方资料索引。
 - [ ] 补充第一批截图和命令输出。

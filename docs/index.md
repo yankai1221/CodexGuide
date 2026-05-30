@@ -2,11 +2,11 @@
 home: true
 icon: home
 title: 瞩目AI
-description: "瞩目AI 是面向 AI 学习者的实践基地：教你接入瞩目中转 API，一站式上手 Codex、ChatBox、NextChat、Cursor 等 AI 工具。"
+description: "瞩目AI 是面向 AI 学习者的实践基地：教你接入中转 API（国际 zzzplus.com / 国内 zhumuai.com），一站式上手 Codex、ChatBox、NextChat、Cursor 等 AI 工具。"
 pageClass: codex-home-page
 heroImage: /logo.svg
 heroText: 瞩目AI
-tagline: 注册账号、获取 API Key，把瞩目中转接口接进 ChatBox / NextChat / Cursor / Codex，一站上手主流 AI 工具。
+tagline: 注册账号、获取 API Key，把中转接口接进 ChatBox / NextChat / Cursor / Codex，一站上手主流 AI 工具。
 actions:
   - text: 快速开始：接入中转 API
     link: /guide/02-subscribe-plus.html
@@ -55,7 +55,7 @@ features:
 <div class="home-metric-grid">
   <a class="home-metric-card" href="/guide/02-subscribe-plus.html" data-tone="teal">
     <strong>1 套接入流程</strong>
-    <span>从注册账号、获取 API Key 到替换 API Base，三步把瞩目中转接口接入主流客户端。</span>
+    <span>从注册账号、获取 API Key 到替换 API Base，三步把中转接口接入主流客户端。</span>
   </a>
   <a class="home-metric-card" href="/guide/00-overview.html" data-tone="blue">
     <strong>17 节系统指南</strong>
@@ -204,7 +204,7 @@ AI 工具的能力会出现在 App、CLI、Cloud、IDE、ChatGPT 和集成生态
 
 ## 建议从这里开始
 
-如果你只是想快速跑通 AI 客户端，直接从 [接入瞩目AI 中转 API](/guide/02-subscribe-plus.html) 开始；如果你已经在项目里写代码，直接从 CLI 安装和第一次本地任务开始。读完第一轮后，再回到配置、权限和案例库，把真实流程固化为可复用的工作方法。
+如果你只是想快速跑通 AI 客户端，直接从 [接入中转 API](/guide/02-subscribe-plus.html) 开始；如果你已经在项目里写代码，直接从 CLI 安装和第一次本地任务开始。读完第一轮后，再回到配置、权限和案例库，把真实流程固化为可复用的工作方法。
 
 <div class="home-action-row">
   <a class="home-primary-link" href="/guide/02-subscribe-plus.html">立刻接入中转 API</a>

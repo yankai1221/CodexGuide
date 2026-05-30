@@ -26,7 +26,7 @@ Codex 是 OpenAI 面向软件工程与知识工作场景的代理式工作流。
 
 | 阶段 | 目标 | 推荐页面 | 验收标准 |
 | --- | --- | --- | --- |
-| 接入 | 接好瞩目中转 API | [快速开始：接入瞩目AI 中转 API](./02-subscribe-plus.md) | 在 ChatBox / NextChat / Cursor 任一客户端里成功用中转 API 发出第一条对话 |
+| 接入 | 接好中转 API | [快速开始：接入中转 API](./02-subscribe-plus.md) | 在 ChatBox / NextChat / Cursor 任一客户端里成功用中转 API 发出第一条对话 |
 | 入门 | 跑通一个低风险任务 | [桌面 App 下载与安装](./01-app-installation.md)、[手机端协同](./04-mobile-control-desktop.md)、[用 Codex 完成第一个任务](./05-app-first-task.md) | 能用 Codex 桌面 App 完成一次完整的任务闭环 |
 | 进阶 | 形成稳定任务方法 | [了解 Codex 基本组成](./03-app-overview.md)、[实践方法](/practice/) | 能写清楚目标、范围、约束、验证和交付 |
 | 工程化 | 进入真实项目流程 | [任务执行机制](./06-task-execution.md)、[配置与扩展](/configuration/) | 每次改动都有 diff、测试结果和风险说明 |

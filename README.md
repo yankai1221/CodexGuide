@@ -2,7 +2,7 @@
   <img src="./assets/banner.svg" alt="瞩目AI" width="920" />
 </p>
 
-<h3 align="center">面向 AI 学习者的实践基地 · 接入瞩目中转 API · 一站上手主流 AI 工具</h3>
+<h3 align="center">面向 AI 学习者的实践基地 · 接入中转 API · 一站上手主流 AI 工具</h3>
 
 <p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-f59e0b?style=flat-square" alt="License"></a>
@@ -25,14 +25,20 @@
   <a href="./docs/reference/index.md">官方资料</a>
 </p>
 
-> 围绕瞩目中转 API，把 ChatBox、NextChat、Cursor、Codex、各类 OpenAI 兼容客户端串起来；同时整理 Codex 桌面 App、CLI、IDE、Cloud 与真实工程案例的使用方法。
+> 围绕中转 API（国际 zzzplus.com / 国内 zhumuai.com），把 ChatBox、NextChat、Cursor、Codex、各类 OpenAI 兼容客户端串起来；同时整理 Codex 桌面 App、CLI、IDE、Cloud 与真实工程案例的使用方法。
 
-## 你需要的两个地址
+## 两条中转通道（请按需求选择，注册站点必须对应接口）
 
-- 中转站主网址（注册账号 / 获取 API Key）：**https://zhumuai.com**
-- 中转 API 接口地址（填到 ChatBox / NextChat / Cursor 等客户端）：**`https://zzzplus.com/v1`**
+- **主推**：高稳定国际模型通道（GPT-4 / Claude 3 / Midjourney 等）
+  - 注册 / 充值主站：**https://zzzplus.com**
+  - 软件中填写的 API 接口：**`https://zzzplus.com/v1`**
+- **备用**：瞩目AI 国内模型通道（仅对接国内主流大模型）
+  - 注册 / 充值主站：**https://zhumuai.com**
+  - 软件中填写的 API 接口：**`https://zhumuai.com/v1`**
 
-详细接入步骤请看 [快速开始：接入瞩目AI 中转 API](./docs/guide/02-subscribe-plus.md)。
+> 两条通道账号、余额、Key 互相独立，注册哪个站就在客户端里填哪个站的接口，不要交叉使用。
+
+详细接入步骤请看 [快速开始：接入中转 API](./docs/guide/02-subscribe-plus.md)。
 
 ## 这份教程适合谁
 
@@ -57,7 +63,7 @@
 
 ### 1. 第一次上手
 
-先按 [快速开始：接入瞩目AI 中转 API](./docs/guide/02-subscribe-plus.md) 把账号和接口配好，再阅读 [学习路线](./docs/guide/00-overview.md) 选一个方向继续。
+先按 [快速开始：接入中转 API](./docs/guide/02-subscribe-plus.md) 把账号和接口配好，再阅读 [学习路线](./docs/guide/00-overview.md) 选一个方向继续。
 
 ### 2. 想用 AI 改真实项目
 

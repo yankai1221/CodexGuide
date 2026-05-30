@@ -30,7 +30,7 @@ export default navbar([
     icon: "book",
     children: [
       { text: "01 Codex 桌面 App 下载与安装", icon: "desktop", link: "/guide/01-app-installation.md" },
-      { text: "02 接入瞩目AI 中转 API", icon: "key", link: "/guide/02-subscribe-plus.md" },
+      { text: "02 接入中转 API（国际 / 国内）", icon: "key", link: "/guide/02-subscribe-plus.md" },
       { text: "03 了解 Codex 桌面 App", icon: "layout", link: "/guide/03-app-overview.md" },
       { text: "04 手机端协同桌面任务", icon: "mobile", link: "/guide/04-mobile-control-desktop.md" },
       { text: "05 用 Codex 完成第一个任务", icon: "code", link: "/guide/05-app-first-task.md" },

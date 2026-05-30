@@ -1,7 +1,7 @@
 export const siteUrl = "https://zhumuai.com";
 
 export const siteDescription =
-  "瞩目AI 是面向 AI 学习者的实践基地：教你接入瞩目中转 API，一站式上手 Codex、ChatBox、NextChat、Cursor 等 AI 工具。";
+  "瞩目AI 是面向 AI 学习者的实践基地：教你接入中转 API（国际 zzzplus.com / 国内 zhumuai.com），一站式上手 Codex、ChatBox、NextChat、Cursor 等 AI 工具。";
 
 export const siteOgImage = `${siteUrl}/og.svg`;
 
@@ -28,7 +28,7 @@ export const pageDescriptions: Record<string, string> = {
   "/guide/01-app-installation.html":
     "Codex 桌面 App 下载与安装教程，说明 macOS、Windows 安装入口、账号登录和首次启动前的准备工作。",
   "/guide/02-subscribe-plus.html":
-    "瞩目AI 中转站快速开始：注册账号、获取 API Key，并把 ChatBox / NextChat / Cursor 的 API Base 切换到中转接口。",
+    "中转 API 快速开始：注册国际通道（zzzplus.com）或国内通道（zhumuai.com）账号、获取 API Key，并把 ChatBox / NextChat / Cursor 的 API Base 切换到对应中转接口。",
   "/guide/03-app-overview.html":
     "Codex 桌面 App 基本组成说明，介绍项目工作区、对话、设置入口、任务状态和常见界面区域，方便快速定位功能。",
   "/guide/04-mobile-control-desktop.html":
