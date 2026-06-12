@@ -24,12 +24,14 @@ export default hopeTheme({
   navbar,
   sidebar,
 
+  contributors: false,
+
   print: false,
   pure: true,
   focus: false,
   breadcrumb: true,
   displayFooter: true,
-  footer: "MIT Licensed | Copyright © 2026 瞩目AI",
+  footer: "MIT Licensed | Copyright © 2026 瞩目AI | 项目维护与贡献者：小目",
   pageInfo: ["Category", "Tag", "Date", "Original", "Word", "ReadingTime"],
 
   blog: false,
