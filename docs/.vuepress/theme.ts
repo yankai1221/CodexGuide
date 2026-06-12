@@ -37,10 +37,13 @@ export default hopeTheme({
   encrypt: {
     admin: ACCESS_PASSWORD,
     config: {
-      "/guide/02-subscribe-plus.html": {
-        password: ACCESS_PASSWORD,
-        hint: "请输入专属激活码以解锁本节教程",
-      },
+      "/guide/": ACCESS_PASSWORD,
+      "/configuration/": ACCESS_PASSWORD,
+      "/platform/": ACCESS_PASSWORD,
+      "/practice/": ACCESS_PASSWORD,
+      "/recipes/": ACCESS_PASSWORD,
+      "/reference/": ACCESS_PASSWORD,
+      "/community/": ACCESS_PASSWORD,
     },
   },
 
